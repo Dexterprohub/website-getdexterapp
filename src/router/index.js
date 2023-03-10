@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/location',
       name: 'loaction',
       
+    },
+    {
+      path: '*',
+      name: 'catchAll',
+      component: home
     }
   ]
 })
