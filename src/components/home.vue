@@ -3,10 +3,10 @@
         <div class="header">
             <nav>
                 <ul class="logoul">
-                    <li><img src="dist/assest/images/home/Logo.png" alt="Company Logo" class="logo"></li>
+                    <li><img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo"></li>
                     <li>
-                        <img src="dist/assest/images/icon-menu-close.svg" alt="" class="close" ref="close" @click="close">
-                        <img src="dist/assest/images/icon-menu.svg" alt="" class="menu" ref="menu" @click="open">
+                        <img src="../assest/images/icon-menu-close.svg" alt="" class="close" ref="close" @click="close">
+                        <img src="../assest/images/icon-menu.svg" alt="" class="menu" ref="menu" @click="open">
                     </li>
                     <li>
                         <ul class="navbar" ref="navbar">
@@ -26,8 +26,8 @@
                         services to pick from. Get qualified service personnel assigned to your tasks in minutes.</p>
                     <button>Join Waitlist</button>
                     <div class="hero-images" ref="imageRotate">
-                        <img src="dist/assest/images/home/hero-img1.png" alt="" class="hero-img1">
-                        <img src="dist/assest/images/home/hero-img2.png" alt="" class="hero-img2">
+                        <img src="../assest/images/home/hero-img1.png" alt="" class="hero-img1">
+                        <img src="../assest/images/home/hero-img2.png" alt="" class="hero-img2">
                     </div>
 
                 </div>
@@ -42,35 +42,35 @@
                 </div>
                 <div class="services">
                     <div class="services_info">
-                        <img src="dist/assest/images/home/electricity.png" alt=""><br />
+                        <img src="../assest/images/home/electricity.png" alt=""><br />
                         <h3>Electrical Repair</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/laundry.png" alt="">
+                        <img src="../assest/images/home/laundry.png" alt="">
                         <h3>Laundry</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/food.png" alt="">
+                        <img src="../assest/images/home/food.png" alt="">
                         <h3>Food Delivery</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/makeup.png" alt=""><br />
+                        <img src="../assest/images/home/makeup.png" alt=""><br />
                         <h3>Make up</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/plumbing.png" alt="">
+                        <img src="../assest/images/home/plumbing.png" alt="">
                         <h3>Plumbing</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/grocery.png" alt="">
+                        <img src="../assest/images/home/grocery.png" alt="">
                         <h3>Grocery Shopping</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/hair-styling.png" alt="">
+                        <img src="../assest/images/home/hair-styling.png" alt="">
                         <h3>Hair Styling</h3>
                     </div>
                     <div class="services_info">
-                        <img src="dist/assest/images/home/fashion-design.png" alt="">
+                        <img src="../assest/images/home/fashion-design.png" alt="">
                         <h3>Fashion Design</h3>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     <span class="mainh1">Currently available in: </span>
                     <br />
                     <span class="sech1">
-                        <img src="dist/assest/images/home/flag.png" alt="">
+                        <img src="../assest/images/home/flag.png" alt="">
                             <span class="location-discription">Lagos, Nigeria</span>
                     </span>
                 </h1>
@@ -94,17 +94,17 @@
                     available in your state or area.</p>
             </div>
             <div class="signUp">
-                <img src="dist/assest/images/home/signupImg.png" alt="" class="iphone">
+                <img src="../assest/images/home/signupImg.png" alt="" class="iphone">
                 <div class="min-signup">
                     <h1>Sign up for our Beta Launch</h1>
                     <ul>
-                        <li><img src="dist/assest/images/home/download.png" alt="">
+                        <li><img src="../assest/images/home/download.png" alt="">
                             <h6> Click on the “Join Waitlist” button on the website</h6>
                         </li>
-                        <li><img src="dist/assest/images/home/info.png" alt="">
+                        <li><img src="../assest/images/home/info.png" alt="">
                             <h6>Fill in your information</h6>
                         </li>
-                        <li><img src="dist/assest/images/home/star.png" alt="">
+                        <li><img src="../assest/images/home/star.png" alt="">
                             <h6>A confirmation email will be sent to you</h6>
                         </li>
                     </ul>
@@ -136,13 +136,13 @@
     </div>
     <footer>
         <div class="socials">
-            <img src="dist/assest/images/home/Logo.png" alt="Company Logo" class="logo2">
+            <img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo2">
             <p>© 2022 Dexterprolimited. All rights reserved</p>
             <ul>
-                <li><a href="#"><img src="dist/assest/images/home/instagram.png" alt=""></a></li>
-                <li><a href="#"><img src="dist/assest/images/home/twitter.png" alt=""></a></li>
-                <li><a href="#"><img src="dist/assest/images/home/Youtube.png" alt=""></a></li>
-                <li><a href="#"><img src="dist/assest/images/home/linkedin.png" alt=""></a></li>
+                <li><a href="#"><img src="../assest/images/home/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="../assest/images/home/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="../assest/images/home/Youtube.png" alt=""></a></li>
+                <li><a href="#"><img src="../assest/images/home/linkedin.png" alt=""></a></li>
             </ul>
         </div>
         <div class="links">
@@ -158,13 +158,13 @@
         <div class="contactus">
             <h1>Contact</h1>
             <ul>
-                <li><img src="dist/assest/images/home/mail.png" alt="">
+                <li><img src="../assest/images/home/mail.png" alt="">
                     <p>support@dexterapp.com</p>
                 </li>
-                <li><img src="dist/assest/images/home/tel.png" alt="">
+                <li><img src="../assest/images/home/tel.png" alt="">
                     <p>+ 1 628 900 2879</p>
                 </li>
-                <li><img src="dist/assest/images/home/location.png" alt="">
+                <li><img src="../assest/images/home/location.png" alt="">
                     <p>36b, Jay Jay Oladimeji Street, off. Freedom Way, Ikate Lekki, Lagos State</p>
                 </li>
             </ul>
@@ -219,7 +219,7 @@ h1 {
 }
 
 .header {
-    background-image: url('dist/assest/images/home/background.png');
+    background-image: url('../assest/images/home/background.png');
     background-color: #276E59;
     background-repeat: no-repeat;
     background-size: cover;
@@ -420,7 +420,7 @@ h3 {
 }
 
 .support {
-    background-image: url('dist/assest/images/home/background.png');
+    background-image: url('../assest/images/home/background.png');
     background-color: #276E59;
     background-repeat: no-repeat;
     background-size: cover;
@@ -698,7 +698,7 @@ footer ul {
     }
 
     .support {
-        background-image: url('dist/assest/images/home/background.png');
+        background-image: url('../assest/images/home/background.png');
         background-color: #276E59;
         background-repeat: no-repeat;
         background-size: cover;
@@ -887,7 +887,7 @@ footer ul {
     }
 
     .support {
-        background-image: url('dist/assest/images/home/background.png');
+        background-image: url('../assest/images/home/background.png');
         background-color: #276E59;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1043,7 +1043,7 @@ footer ul {
     }
 
     .support {
-        background-image: url('dist/assest/images/home/background.png');
+        background-image: url('../assest/images/home/background.png');
         background-color: #276E59;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1370,7 +1370,7 @@ footer ul {
     }
 
     .support {
-        background-image: url('dist/assest/images/home/background.png');
+        background-image: url('../assest/images/home/background.png');
         background-color: #276E59;
         background-repeat: no-repeat;
         background-size: cover;
