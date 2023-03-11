@@ -1311,7 +1311,12 @@ footer ul {
         color: #1B1D21;
     }
 
+    .service-discription {
+        padding-top: 10vh;
+    }
+
     .service-discription h1 {
+
         font-weight: 700;
         font-size: 30px;
     }
