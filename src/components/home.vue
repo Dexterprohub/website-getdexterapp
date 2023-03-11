@@ -3,7 +3,7 @@
         <div class="header">
             <nav>
                 <ul class="logoul">
-                    <li><router-link to="/home"><img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo"></router-link></li>
+                    <li><router-link to="/"><img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo"></router-link></li>
                     <li>
                         <img src="../assest/images/icon-menu-close.svg" alt="" class="close" ref="close" @click="close">
                         <img src="../assest/images/icon-menu.svg" alt="" class="menu" ref="menu" @click="open">
