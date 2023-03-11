@@ -10,10 +10,10 @@
                     </li>
                     <li>
                         <ul class="navbar" ref="navbar">
-                            <li><router-link to="/home">Home</router-link></li>
-                            <li><router-link to="/home">About</router-link></li>
+                            <li><router-link to="/">Home</router-link></li>
+                            <li><router-link to="#">About</router-link></li>
                             <li><router-link to="/business">For Business</router-link></li>
-                            <li><router-link to="/home">FAQs</router-link></li>
+                            <li><router-link to="#">FAQs</router-link></li>
                         </ul>
                     </li>
                 </ul>
@@ -137,7 +137,7 @@
     <footer>
         <div class="socials">
             <img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo2">
-            <p>© 2022 Dexterprolimited. All rights reserved</p>
+            <p>© 2023 Dexterprolimited. All rights reserved</p>
             <ul>
                 <li><a href="#"><img src="../assest/images/home/instagram.png" alt=""></a></li>
                 <li><a href="#"><img src="../assest/images/home/twitter.png" alt=""></a></li>
@@ -258,8 +258,6 @@ a {
 .navbar a.router-link-active {
     color: #FFFFFF;
     text-decoration: none;
-    padding-bottom: 4px;
-    border-bottom: 3px solid #FFFFFF;
 }
 
 .hero-section {
@@ -956,7 +954,7 @@ footer ul {
     }
 
     .hero h1 {
-        font-size: 64px;
+        font-size: 54px;
         line-height: 70.14px;
     }
 
@@ -1154,16 +1152,11 @@ footer ul {
     }
 }
 
-@media screen and (width: 1920px) {
-    .hero-img1 {
-        left: 18vw;
-    }
-
+@media screen and (min-width: 1440px) {
     .hero-img2 {
-        left: 0vw;
+        left: 8vw;
     }
 }
-
 
 @media screen and (width:2560px) {
     .hero p {
@@ -1269,7 +1262,7 @@ footer ul {
     }
 
     .hero h1 {
-        font-size: 54px;
+        font-size: 44px;
         line-height: 50.14px;
     }
 
@@ -1289,14 +1282,14 @@ footer ul {
     .hero-img2 {
         position: relative;
         width: 50vw;
-        right: 20vw;
+        right: 25vw;
     }
 
     .services {
         display: grid;
         gap: 5vw;
         grid-template-columns: repeat(2, 150px);
-        margin: 5vh 10vw 2vh 10vw;
+        margin: 5vh 10vw 2vh 8vw;
     }
 
 
@@ -1324,14 +1317,14 @@ footer ul {
     }
 
     .signUp {
-        padding: 10vh 10vw 10vh 10vw;
+        padding: 10vh 10vw 10vh 8vw;
         display: grid;
         gap: 0;
     }
 
     .signUp .iphone {
         position: relative;
-        left: 15vw;
+        left: 18vw;
         width: 50vw;
 
     }
@@ -1417,9 +1410,9 @@ footer ul {
         background-color: #0B0D17;
         color: #FEFEFE;
         display: grid;
-        gap: 2vw;
+        gap: 10vw;
         margin: 0;
-        grid-template-rows: 30vw 18vw 38vw;
+        grid-template-rows: 30vw 25vw 50vw;
         grid-template-columns: none;
         padding: 10vw 5vw 10vw 5vw;
 
@@ -1454,6 +1447,12 @@ footer ul {
     }
 
 
+}
+
+@media  screen and (width:425px) {
+    .services {
+        margin: 5vh 10vw 2vh 10vw;
+    }
 }
 
 @media only screen and (min-width:280px) and (max-width:320px) {

@@ -8,7 +8,7 @@
                   <img src="../assest/images/icon-menu.svg" alt="" class="menu" ref="menu" @click="open">
                   <li>
                       <ul class="navbar" ref="navbar">
-                          <li><router-link to="/home">Home</router-link></li>
+                          <li><router-link to="/">Home</router-link></li>
                           <li><router-link to="/about">About</router-link></li>
                           <li><router-link to="/business">For Business</router-link></li>
                           <li><router-link to="/faqs">FAQs</router-link></li>
@@ -127,7 +127,6 @@
               <li><a href="#"><img src="../assest/images/home/Youtube.png" alt=""></a></li>
               <li><a href="#"><img src="../assest/images/home/linkedin.png" alt=""></a></li>
           </ul>
-          <button>Join Waitlist</button>
       </div>
       <div class="links">
           <h1>Quick Links</h1>
@@ -1210,47 +1209,51 @@ footer {
 
 }
 
-
 @media only screen and (max-width:480px) {
- .close, .menu {
+
+.close,
+.menu {
     display: block;
     position: absolute;
- }
- .close {
+
+}
+
+.close {
     z-index: 2;
     top: 5vh;
     left: 80vw;
     display: none;
     position: fixed;
- }
+}
 
- .menu {
+.menu {
     left: 80vw;
- }
+}
 
- .logoul {
+.logoul {
     padding: 0;
- }
- .logo {
+}
+
+.logo {
     width: 30vw;
     margin: 0;
- }
+}
 
- .navbar {
-        position: absolute;
-        position: fixed;
-        top: 0;
-        left: 35vw;
-        background-color: #FFFFFF;
-        color: #276E59;
-        height: 101vh;
-        display: grid;
-        grid-template-rows: 10vh 10vh 10vh 10vh;
-        width: 55vw;
-        z-index: 1;
-        padding-top: 20vh;
-        display: none;
-    }
+.navbar {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 35vw;
+    background-color: #FFFFFF;
+    color: #276E59;
+    height: 101vh;
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    width: 55vw;
+    z-index: 1;
+    padding-top: 20vh;
+    display: none;
+}
 
 .navbar li {
     display: block;
@@ -1270,22 +1273,23 @@ footer {
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 44px;
     line-height: 50.14px;
 }
 
 .hero button {
-    width: 300px;
+    width: 200px;
 }
 
 .hero-images {
-  padding: 0;
+    display: flex;
 }
 
 .hero-img1 {
     width: 85vw;
     margin-right: 10vw;
 }
+
 
 .services {
     display: grid;
@@ -1319,7 +1323,7 @@ footer {
 }
 
 .signUp {
-    padding: 10vh 10vw 10vh 10vw;
+    padding: 10vh 10vw 10vh 8vw;
     display: grid;
     grid-template-columns: none;
     gap: 0;
@@ -1327,7 +1331,7 @@ footer {
 
 .signUp .iphone {
     position: relative;
-    left: 15vw;
+    left: 18vw;
     width: 50vw;
 
 }
@@ -1400,25 +1404,25 @@ footer {
 }
 
 .newsletter-signup input {
-  padding-left: 10vw;
+    padding-left: 10vw;
 }
 
 
-.newsletter-signup button  {
+.newsletter-signup button {
     width: 80vw;
 
 }
 
 footer {
-    background-color: #0B0D17; 
+    background-color: #0B0D17;
     color: #FEFEFE;
     display: grid;
     gap: 10vw;
     margin: 0;
-    grid-template-rows: 50vw 18vw 38vw;
+    grid-template-rows: 30vw 25vw 50vw;
     grid-template-columns: none;
     padding: 10vw 5vw 10vw 5vw;
-   
+
 }
 
 .socials ul {
@@ -1434,20 +1438,31 @@ footer {
     display: flex;
     gap: 4vw;
 }
-.contactus ul li  {
+
+.contactus ul li {
     display: grid;
     grid-template-columns: 2vw 60vw;
     gap: 5vw;
     margin-bottom: 2vh;
-}   
+}
 
 
-.contactus p{
+.contactus p {
     color: #D9DBE1;
     font-weight: 400;
     font-size: 14px;
 }
 
+
+}
+
+@media only screen and (width:375px) {
+  .services {
+    display: grid;
+    gap: 5vw;
+    grid-template-columns: repeat(2, 130px);
+    margin: 5vh 10vw 2vh 7vw;
+}
 
 }
 
