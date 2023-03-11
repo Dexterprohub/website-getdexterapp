@@ -1321,6 +1321,10 @@ footer ul {
         font-size: 30px;
     }
 
+    .service-discription p {
+        padding: 0 5vw 0 5vw;
+    }
+
     .signUp {
         padding: 10vh 10vw 10vh 8vw;
         display: grid;
