@@ -9,7 +9,7 @@
                   <li>
                       <ul class="navbar" ref="navbar">
                           <li><router-link to="/">Home</router-link></li>
-                          <li><router-link to="/about">About</router-link></li>
+                          <li><router-link to="#">About</router-link></li>
                           <li><router-link to="/business">For Business</router-link></li>
                           <li><router-link to="/faqs">FAQs</router-link></li>
                       </ul>
@@ -22,7 +22,7 @@
                   <p>Do you have any task or chore you want done anywhere, The Dexter App provides you with a pool
                       of
                       services to pick from. Get qualified service personnel assigned to your tasks in minutes.</p>
-                  <button>Join Waitlist</button>
+                   <button><a href="https://vb1qo8mo529.typeform.com/to/oej0dcim">Join Waitlist</a></button>
                   <div class="hero-images">
                       <img src="../assest/images/business/business-hero-img.png" alt="" class="hero-img1">
                   </div>
@@ -76,7 +76,7 @@
           <div class="location">
               <h1><span class="mainh1">Currently available in: </span><br/><span class="sech1"><img src="../assest/images/home/flag.png" alt="" ><span class="location-discription">Lagos, Nigeria</span></span></h1>
               <p>Our goal is to bring Dexter to as many states as possible in Nigeria.<br /> We’re just getting
-                  started. <span><a href="#" class="news">Join our newsletter</a></span> to recieve updates from
+                  started. <span><a href="https://vb1qo8mo529.typeform.com/to/oej0dcim" class="news">Join our newsletter</a></span> to recieve updates from
                   Dexter<br /> as soon as our
                   services are
                   available in your state or area.</p>
@@ -91,7 +91,7 @@
                       <li><img src="../assest/images/home/info.png" alt=""><h6>Fill in your information</h6></li>
                       <li><img src="../assest/images/home/star.png" alt=""><h6>A confirmation email will be sent to you</h6></li>
                   </ul>
-                  <button>Join Waitlist</button>
+                  <button><a href="https://vb1qo8mo529.typeform.com/to/oej0dcim">Join Waitlist</a></button>
               </div>
           </div>
           <div class="support">
@@ -120,29 +120,29 @@
   <footer>
       <div class="socials">
           <img src="../assest/images/home/Logo.png" alt="Company Logo">
-          <p>© 2022 Dexterprolimited. All rights reserved</p>
+          <p>© 2023 Dexterprolimited.<br/> All rights reserved</p>
           <ul>
-              <li><a href="#"><img src="../assest/images/home/instagram.png" alt=""></a></li>
+              <li><a href="https://www.instagram.com/dexterapp_hq/"><img src="../assest/images/home/instagram.png" alt=""></a></li>
               <li><a href="#"><img src="../assest/images/home/twitter.png" alt=""></a></li>
-              <li><a href="#"><img src="../assest/images/home/Youtube.png" alt=""></a></li>
-              <li><a href="#"><img src="../assest/images/home/linkedin.png" alt=""></a></li>
+              <!-- <li><a href="#"><img src="../assest/images/home/Youtube.png" alt=""></a></li> -->
+              <li><a href="https://www.linkedin.com/company/dexterapphq/"><img src="../assest/images/home/linkedin.png" alt=""></a></li>
           </ul>
       </div>
       <div class="links">
           <h1>Quick Links</h1>
           <ul>
-              <li><router-link to="/about">About</router-link></li>
-              <li><router-link to="/contact">Contact</router-link> </li>
-              <li><router-link to="/faq">FAQs</router-link> </li>
+              <li><router-link to="#">About</router-link></li>
+              <li><router-link to="#">Contact</router-link> </li>
+              <li><router-link to="/faqs">FAQs</router-link> </li>
               <li><router-link to="/termOfServices">Term Of Service</router-link> </li>
-              <li><router-link to="/ImageCredits">Image Credits</router-link></li>
+              <!-- <li><router-link to="/ImageCredits">Image Credits</router-link></li> -->
           </ul>
       </div>
       <div class="contactus">
           <h1>Contact</h1>
           <ul>
               <li><img src="../assest/images/home/mail.png" alt=""><p>support@dexterapp.com</p></li>
-          <li><img src="../assest/images/home/tel.png" alt=""><p>+ 1 628 900 2879</p></li>
+          <li><img src="../assest/images/home/tel.png" alt=""><p>+234 703 231 9537</p></li>
           <li><img src="../assest/images/home/location.png" alt=""><p>36b, Jay Jay Oladimeji Street, off. Freedom Way, Ikate Lekki, Lagos State</p></li>
           </ul>
           
@@ -221,7 +221,6 @@ a {
   color: #FFFFFF;
   text-decoration: none;
   padding-bottom: 4px;
-    border-bottom: 3px solid #FFFFFF;
 }
 
 .hero-section {

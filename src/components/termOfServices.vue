@@ -3,7 +3,8 @@
         <div class="header">
             <nav>
                 <ul class="logoul">
-                    <li><router-link to="/"><img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo"></router-link></li>
+                    <li><router-link to="/"><img src="../assest/images/home/Logo.png" alt="Company Logo"
+                                class="logo"></router-link></li>
                     <li>
                         <img src="../assest/images/icon-menu-close.svg" alt="" class="close" ref="close" @click="close">
                         <img src="../assest/images/icon-menu.svg" alt="" class="menu" ref="menu" @click="open">
@@ -13,102 +14,154 @@
                             <li><router-link to="/">Home</router-link></li>
                             <li><router-link to="#">About</router-link></li>
                             <li><router-link to="/business">For Business</router-link></li>
-                            <li><router-link to="/faqs">FAQs</router-link></li>
+                            <li><router-link to="/faq">FAQs</router-link></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
-            <div class="hero-section">
-                <div class="hero">
-                    <h1>Save time Outsourcing <br /> Daily Tasks</h1>
-                    <p>Do you have any task or chore you want done anywhere, The Dexter App provides you with a pool<br />
-                        of
-                        services to pick from. Get qualified service personnel assigned to your tasks in minutes.</p>
-                        <button><a href="https://vb1qo8mo529.typeform.com/to/oej0dcim">Join Waitlist</a></button>
-                    <div class="hero-images" ref="imageRotate">
-                        <img src="../assest/images/home/hero-img1.png" alt="" class="hero-img1">
-                        <img src="../assest/images/home/hero-img2.png" alt="" class="hero-img2">
-                    </div>
-
-                </div>
+            <div class="termOfServiceHeader">
+                <h1>Terms of Service</h1>
+                <p>Last updated: March 17th, 2023</p>
             </div>
         </div>
 
         <main>
-            <div class="services-container">
-                <div class="service-discription">
-                    <h1>Discover Our Services</h1>
-                    <p>We cover a whole lot of services and we are still adding more to the list</p>
-                </div>
-                <div class="services">
-                    <div class="services_info">
-                        <img src="../assest/images/home/electricity.png" alt=""><br />
-                        <h3>Electrical Repair</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/laundry.png" alt="">
-                        <h3>Laundry</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/food.png" alt="">
-                        <h3>Food Delivery</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/makeup.png" alt=""><br />
-                        <h3>Make up</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/plumbing.png" alt="">
-                        <h3>Plumbing</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/grocery.png" alt="">
-                        <h3>Grocery Shopping</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/hair-styling.png" alt="">
-                        <h3>Hair Styling</h3>
-                    </div>
-                    <div class="services_info">
-                        <img src="../assest/images/home/fashion-design.png" alt="">
-                        <h3>Fashion Design</h3>
-                    </div>
-                </div>
+            <div class="termOfService">
+                <div>
+                    <h1>Terms Of Service</h1>
+                    <p>
+                        These Terms of Service ("Terms") is hereby entered between The Leaders Index, (“we, “us”, or “our”)
+                        and you to govern your access and use of Quikash ("The Leaders Index", "Quikash",
+                        "[https://quikashng.com](https://quikashng.com/)", "we", "us" or "our") websites, services, and
+                        applications (collectively the "Service"). Your access to and use of the service is conditioned in
+                        your acceptance of and compliance with these Terms of Service. These terms applies to all visitors,
+                        users, agents and others who access or make use of this service or platform.
 
-            </div>
-            <div class="location">
-                
-                <h1>
-                    <span class="mainh1">Currently available in: </span>
-                    <br />
-                    <span class="sech1">
-                        <img src="../assest/images/home/flag.png" alt="">
-                            <span class="location-discription">Lagos, Nigeria</span>
-                    </span>
-                </h1>
-                
-                <p>Our goal is to bring Dexter to as many states as possible in Nigeria.<br /> We’re just getting
-                    started. <span><a href="#news" class="news">Join our newsletter</a></span> to recieve updates from
-                    Dexter<br /> as soon as our
-                    services are
-                    available in your state or area.</p>
-            </div>
-            <div class="signUp">
-                <img src="../assest/images/home/signupImg.png" alt="" class="iphone">
-                <div class="min-signup">
-                    <h1>Sign up for our Beta Launch</h1>
-                    <ul>
-                        <li><img src="../assest/images/home/download.png" alt="">
-                            <h6> Click on the “Join Waitlist” button on the website</h6>
-                        </li>
-                        <li><img src="../assest/images/home/info.png" alt="">
-                            <h6>Fill in your information</h6>
-                        </li>
-                        <li><img src="../assest/images/home/star.png" alt="">
-                            <h6>A confirmation email will be sent to you</h6>
-                        </li>
-                    </ul>
-                    <button><a href="https://vb1qo8mo529.typeform.com/to/oej0dcim">Join Waitlist</a></button>
+                        We are an independent contractor for all purposes, providing this website and our services on an
+                        independent service provider basis. We do not have control or assume the liability or legality for
+                        the products or services that are paid for with our service. We do not guarantee any user’s identity
+                        and cannot ensure that a buyer or seller will complete a transaction.
+
+                    </p>
+                </div>
+                <div>
+                    <h1>
+                        YOUR USE OF THE SERVICE
+                    </h1>
+                    <p>
+                        By accessing or using the Service you agree to be bound by these Terms. If you are using the Service
+                        on behalf of an organization or entity ("Organization"), then you are agreeing to these Terms on
+                        behalf of that Organization and you represent and warrant that you have the authority to bind the
+                        Organization to these Terms. In that case, "you" and "your" refers to you and that Organization. You
+                        may use the Service only if you can form a binding contract with Quikash, and only in compliance
+                        with these Terms and all applicable local, state, nation, and international laws, rules and
+                        regulations. The Service may change from time to time as we evolve, refine, or add more features to
+                        the platform, often without prior notice to you. In addition, Quikash may temporarily or permanently
+                        stop providing the Service, or any features within the Service to you or to users generally and may
+                        not be able to provide you with prior notice.
+                    </p>
+                </div>
+                <div>
+                    <h1>ACCURACY OF MATERIALS</h1>
+                    <p>
+                        The materials appearing on our website could include technical, typographical, or photographic
+                        errors. Quikash does not warrant that any of the materials on its website are complete or current.
+                        Quikash may make changes to the materials contained on its website at any time without notice.
+                        However, Quikash does not make any commitment to update the materials.
+                    </p>
+                </div>
+                <div>
+                    <h1>IDENTITY VERIFICATION</h1>
+                    <p>
+                        In order to use certain features of Quikash, you may be required to provide Quikash with personal
+                        information, including, but not limited to, your name, location, mobile number, e-mail address, date
+                        of birth, National ID card, and information regarding your bank account (e.g., financial institution
+                        and account number). By submitting these or any other personal information as may be required, you
+                        confirm that the information provided is accurate and authentic, and you agree to update Quikash if
+                        any information changes.
+
+                        You hereby authorise Quikash to, directly or through third parties, make any inquiries we consider
+                        necessary to verify your identity and/or protect against fraud, including to query identity
+                        information contained in public reports (e.g., your name, address, past addresses, or date of
+                        birth), to query account information associated with your linked bank account (e.g., name or account
+                        balance), and to take action we reasonably deem necessary based on the results of such inquiries and
+                        reports. You further authorise any and all third parties to which such inquiries or requests may be
+                        directed to fully respond to such inquiries or requests.
+
+                    </p>
+                </div>
+                <div>
+                    <h1>DISPUTES & REVERSAL</h1>
+                    <p>
+                        If you believe that an unauthorized or otherwise problematic transaction has taken place, you agree
+                        to notify us immediately, to enable us take action to help prevent financial loss.
+
+                        All claims against us related to payments should be made within 24 hours after the date of such
+                        payment. It will be taken that you waive all claims against us, to the fullest extent of the law
+                        after the said period of time.
+
+                        We may intervene in disputes between users and merchants concerning payments but have no obligation
+                        to do so.
+
+                        Your transaction ID and/or transaction details will be required to resolve all disputes.
+
+                    </p>
+                </div>
+                <div>
+                    <h1>AGE RESTRICTION</h1>
+                    <p>
+                        Our website and services are not directed to children under 18. We do not knowingly transact or
+                        provide any services to children under 18.
+                    </p>
+                </div>
+                <div>
+                    <h1>COMPUTER VIRUSES</h1>
+                    <p>
+                        We shall not bear any liability, whatsoever, for any damage or interruptions caused by any computer
+                        viruses, spyware, scareware, Trojan horses, worms or other malware that may affect your computer or
+                        other equipment, or any phishing, spoofing or other attack. We advise the regular use of a reputable
+                        and readily available virus screening and prevention software. You should also be aware that SMS and
+                        email services are vulnerable to spoofing and phishing attacks and should use care in reviewing
+                        messages purporting to originate from Quikash.
+                    </p>
+                </div>
+                <div>
+                    <h1>ACCOUNT SECURITY</h1>
+                    <p>
+                        You are responsible for safeguarding the password that you use to access the Service and for any
+                        activities or actions under your password, whether your password is with Quikash or a third-party
+                        service. We encourage you to use “strong” passwords that use a combination of upper and lower case
+                        letters, numbers and symbols with your account. You agree not to disclose your password to any third
+                        party. Quikash cannot and will not be liable for any loss or damage arising from your failure to
+                        comply with the above requirements. You must notify Quikash immediately upon becoming aware of any
+                        breach of security or unauthorized use of your account.
+                    </p>
+                </div>
+                <div>
+                    <h1>UPDATES, MODIFICATIONS & AMENDMENTS</h1>
+                    <p>
+                        We may need to update, modify or amend our Terms of Use as our technology evolves. We reserve the
+                        right to make changes to this Terms of Use at any time by giving notice to users on this page.
+
+                        We advise that you check this page often, referring to the date of the last modification on the page
+                        If a user objects to any of the changes to the Terms of Use, the User must cease using our website
+                        and/or services immediately
+
+                    </p>
+                </div>
+                <div>
+                    <h1>THIRD-PARTY LINKS</h1>
+                    <p>
+                        The Service may have links to third-party websites, advertisers, services, special offers, or other
+                        events or activities that are not owned or controlled by us. We do not endorse or assume any
+                        responsibility for any of these third-party sites, information, materials, products, or services. If
+                        you access a third party website from the Service, you do so at your own risk, and you understand
+                        that these Terms and our Privacy Policy do not apply to your use of those sites. You expressly
+                        relieve Wirepay from any and all liability arising from your use of any third-party website,
+                        service, or content and agree that your dealings with any third-party website, service, or content
+                        is only between you and such third parties. You agree that we are not responsible for any loss or
+                        damage of any sort in your dealings with such advertisers.
+                    </p>
                 </div>
             </div>
             <div class="support">
@@ -121,14 +174,14 @@
                 </div>
                 <img src="../assest/images/home/peopletree.png" alt="">
             </div>
-            <div class="newsletter" id="news">
+            <div class="newsletter">
                 <div class="newsletter-details">
                     <h1>Stay updated with our Newsletter</h1>
                     <p>Be the first to receive our latest news, updates and everything in between.</p>
                 </div>
                 <div class="newsletter-signup">
-                    <input type="Email" placeholder="Your Mail" v-model="email">
-                    <button @click="addSubscriber" >Sign Up</button>
+                    <input type="Email" placeholder="Your Mail">
+                    <button><a href="#">Signup</a></button>
                 </div>
             </div>
         </main>
@@ -137,22 +190,22 @@
     <footer>
         <div class="socials">
             <img src="../assest/images/home/Logo.png" alt="Company Logo" class="logo2">
-            <p>© 2023 Dexterprolimited.<br/> All rights reserved</p>
+            <p>© 2023 Dexterprolimited. All rights reserved</p>
             <ul>
                 <li><a href="https://www.instagram.com/dexterapp_hq/"><img src="../assest/images/home/instagram.png" alt=""></a></li>
-                <li><a href="#"><img src="../assest/images/home/twitter.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/company/dexterapphq/"><img src="../assest/images/home/twitter.png" alt=""></a></li>
                 <!-- <li><a href="#"><img src="../assest/images/home/Youtube.png" alt=""></a></li> -->
-                <li><a href="https://www.linkedin.com/company/dexterapphq/"><img src="../assest/images/home/linkedin.png" alt=""></a></li>
+                <li><a href="#"><img src="../assest/images/home/linkedin.png" alt=""></a></li>
             </ul>
         </div>
         <div class="links">
             <h1>Quick Links</h1>
             <ul>
-                <li><router-link to="#">About</router-link></li>
-                <li><router-link to="#">Contact</router-link> </li>
-                <li><router-link to="/faqs">FAQs</router-link> </li>
+                <li><router-link to="/about">About</router-link></li>
+                <li><router-link to="/contact">Contact</router-link> </li>
+                <li><router-link to="/faq">FAQs</router-link> </li>
                 <li><router-link to="/termOfServices">Term Of Service</router-link> </li>
-                <!-- <li><router-link to="#">Image Credits</router-link></li> -->
+                <li><router-link to="/ImageCredits">Image Credits</router-link></li>
             </ul>
         </div>
         <div class="contactus">
@@ -174,22 +227,14 @@
 </template>
 
 <script>
-import mailchimp from '@mailchimp/mailchimp_marketing';
-import { createClient } from '@mailchimp/mailchimp_marketing';
 
 export default {
     name: 'home',
     data() {
         return {
-            email: ''
+
         }
     },
-    mounted() {
-        mailchimp.setConfig({
-        apiKey: '86699060edd461af1a4f23e942ab24f6-us21',
-        server: 'us21',
-  });
-},
     methods: {
         open() {
             if (this.$refs.navbar.style.display = 'none') {
@@ -206,18 +251,7 @@ export default {
                 this.$refs.menu.style.display = 'block'
                 this.$refs.close.style.display = ' none'
             }
-        },
-        async addSubscriber() {
-    try {
-      const response = await mailchimp.lists.addListMember('your-list-id-here', {
-        email_address: this.email,
-        status: 'subscribed',
-      });
-      console.log(response);
-    } catch (error) {
-      console.error(error);
-    }
-  },
+        }
 
     }
 }
@@ -279,161 +313,33 @@ a {
     text-decoration: none;
 }
 
-.hero-section {
+.termOfServiceHeader {
     text-align: center;
-    font-family: 'manrope', sans-serif;
-    position: relative;
+    color: #ffffff;
 }
 
-.hero h1 {
-    font-weight: 800;
-    color: #FFFFFF;
+.termOfServiceHeader h1  {
+    color: #ffffff;
 }
 
-.hero p {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.59px;
+.termOfServiceHeader p {
+    color: #E6E6E6;
 }
 
-.hero button {
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 30px;
-    border: none;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    cursor: pointer;
-}
-
-.hero-images {
-    margin-top: 10vh;
-    margin-left: 3vw;
-}
-
-.services-container {
-    background-color: #FAFAFA;
-    text-align: center;
-    padding-bottom: 10vh;
-}
-
-
-.service-discription p {
-    margin-top: 0;
-    font-weight: 400;
-    font-size: 18px;
-    color: #5B5B5B;
-}
-
-
-.service-discription h1 {
-    margin: 0;
-}
-
-.services {
-    margin: 5vh 5vh 2vh 4vw;
-}
-
-.services_info {
-    height: 242px;
-    background-color: #FFFFFF;
-    text-align: left;
-}
-
-.services_info img,
-h3 {
-    margin: 8vh 2vw 0 2vw;
-}
-
-
-.location {
-    background-color: #E6E6E6;
-    text-align: center;
-    margin: 0;
+.termOfService {
     padding: 10vh 10vw 10vh 10vw;
+    background-color: #f7f6f6;
 }
 
-.location h1 {
-    font-size: 40px;
-    margin: 0;
-}
-
-.location-discription {
-    color: #131313;
-    font-weight: 700;
+.termOfService h1 {
     font-size: 20px;
+    font-weight: bolder;
 }
 
-.news {
-    color: #276E59;
-}
-
-.location p {
-    margin-top: 5vh;
-    color: #5B5B5B;
-    font-size: 18px;
+.termOfService p {
+    font-size: 16px;
+    color: #7b7b7c;
     font-weight: 400;
-    line-height: 24.59px;
-}
-
-.mainh1 {
-    color: #131313;
-}
-
-.sech1 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-
-.signupImg {
-    position: absolute;
-    left: 325px;
-    top: 120;
-    border-radius: 5%;
-}
-
-.min-signup {
-    margin-top: 10vh;
-}
-
-.min-signup h1 {
-    color: #131313;
-
-}
-
-.min-signup ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.min-signup ul li img {
-    margin-right: 2vw;
-    margin: 0 2vw 0 0vw;
-}
-
-.min-signup ul li h6 {
-    font-size: 20px;
-    color: #131313;
-    margin: 1vh 0 0 0;
-}
-
-.min-signup button {
-    width: 20vw;
-    border: none;
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 30px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    cursor: pointer;
-    margin-left: 5vw;
 }
 
 .support {
@@ -622,98 +528,6 @@ footer ul {
     a {
         font-size: 18px;
     }
-
-    .hero h1 {
-        font-size: 64px;
-        line-height: 70.14px;
-    }
-
-    .hero button {
-        margin-top: 5vh;
-        width: 342px;
-        padding-top: 2.5vh;
-        padding-bottom: 2.5vh;
-    }
-
-    .hero-images {
-        display: flex;
-    }
-
-    .hero-img1 {
-        position: relative;
-        left: 18vw;
-    }
-
-    .hero-img2 {
-        position: relative;
-        left: 4vw;
-    }
-
-
-    .services {
-        display: grid;
-        grid-template-columns: repeat(4, 274.5px);
-        gap: 2vw;
-        margin: 5vh 10vw 2vh 10vw;
-
-    }
-
-    .services_info img {
-        margin: 5vh 2vw 0 2vw;
-    }
-
-    .services_info h3 {
-        margin: 2vh 2vw 0 2vw;
-        color: #1B1D21;
-    }
-
-    .service-discription {
-        padding-top: 5vh;
-    }
-
-    .service-discription h1 {
-        font-weight: 700;
-        font-size: 40px;
-    }
-
-    .signUp {
-        padding: 10vh 10vw 10vh 10vw;
-        display: grid;
-        grid-template-columns: 31vw 40vw;
-        gap: 5vw;
-    }
-
-    .min-signup {
-        margin-top: 3vh;
-    }
-
-    .min-signup ul li {
-        margin: 0;
-        margin-bottom: 3vh;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 2vw 25vw;
-        gap: 5vw;
-    }
-
-    .min-signup h1 {
-        color: #131313;
-        font-size: 40px;
-        font-weight: 700;
-    }
-
-    .min-signup button {
-        width: 30vw;
-        margin-top: 5vh;
-        margin-left: 0;
-        padding-top: 2.5vh;
-        padding-bottom: 2.5vh;
-    }
-
-    .mainh1 {
-        font-size: 40px;
-    }
-
     .support {
         background-image: url('../assest/images/home/background.png');
         background-color: #276E59;
@@ -772,24 +586,6 @@ footer ul {
 }
 
 @media screen and (width: 1024px) {
-    .hero-img1 {
-        position: relative;
-        left: 10vw;
-    }
-
-    .hero-img2 {
-        position: relative;
-        left: -5vw;
-    }
-
-    .services {
-        display: grid;
-        grid-template-columns: repeat(2, 274.5px);
-        gap: 5vw;
-        margin: 5vh 10vw 2vh 20vw;
-
-    }
-
     .support {
         grid-template-columns: 30vw 60vw;
         gap: 10vh;
@@ -809,12 +605,6 @@ footer ul {
     a {
         font-size: 18px;
     }
-
-    .hero h1 {
-        font-size: 64px;
-        line-height: 70.14px;
-    }
-
     .menu {
         display: none;
     }
@@ -1477,7 +1267,7 @@ footer ul {
 
 }
 
-@media  screen and (width:425px) {
+@media screen and (width:425px) {
     .services {
         margin: 5vh 10vw 2vh 10vw;
     }

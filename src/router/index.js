@@ -20,14 +20,14 @@ const router = createRouter({
       component: () => import('../components/about.vue')
     },
     {
-      path: '/faq',
+      path: '/faqs',
       name: 'faq',
       component: () => import('../components/faq.vue')
     },
     {
-      path: '/location',
-      name: 'loaction',
-      
+      path: '/termOfServices',
+      name: 'termOfServices',
+      component: () => import('../components/termOfServices.vue')
     }
   ]
 })
