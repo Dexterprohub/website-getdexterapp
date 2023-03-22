@@ -120,7 +120,7 @@
   <footer>
       <div class="socials">
           <img src="../assest/images/home/Logo.png" alt="Company Logo">
-          <p>© 2023 Dexterprolimited.<br/> All rights reserved</p>
+          <p>© 2022 Dexterprolimited. All rights reserved</p>
           <ul>
               <li><a href="https://www.instagram.com/dexterapp_hq/"><img src="../assest/images/home/instagram.png" alt=""></a></li>
               <li><a href="#"><img src="../assest/images/home/twitter.png" alt=""></a></li>
